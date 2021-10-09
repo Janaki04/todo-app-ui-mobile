@@ -1,0 +1,112 @@
+.box{
+    position: absolute;
+    height: 800px;
+    width: 90%;
+    margin-left: 10px;
+}
+.heading
+{
+    color: black;
+    font-size: 28px;
+    font-style: normal;
+    position: absolute;
+    top:70px;
+    left: 20px;
+
+}
+.heading1
+{
+    color:gray;
+    font-size: 28px;
+    font-style: inherit;
+    position: absolute;
+    top:70px;
+    left: 35%;
+}
+.box1{
+    height: 600px;
+    width: 90%;
+    position: absolute;
+    top: 20px;
+    left: 11%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+.block
+{
+    border: 1px solid red;
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    text-decoration-line: none;
+    box-shadow: 3px 3px lightgrey;
+    border-radius: 10px;
+    font-size: 25px;
+    font-style: normal;
+    color: saddlebrown;
+    text-align: left;
+}
+.block1
+{
+    display: inline-block;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 20%;
+    
+}
+.block2
+{
+    display: inline-block;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 35%;
+}
+.block3
+{
+    display: inline-block;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50%;
+}
+.block4
+{
+    display: inline-block;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 65%;
+}
+.block5
+{
+    display: inline-block;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 80%;
+}
+.link3
+{
+   color:red;
+   font-size:35px;
+   position: absolute;
+   top: 13%;
+   left: 250px;
+}
+@media screen and  (min-width:941px) and (max-width:1980px){
+    .heading{
+        position: absolute;
+        top: 80px;
+        left: 200px;
+    }
+    .heading1{
+        position: absolute;
+        top: 80px;
+        left: 300px;
+    }
+    .link3{
+        margin-left: 900px;
+        margin-top: 10px;
+    }
+    .block{
+        background-color: yellow;
+    }
+}
