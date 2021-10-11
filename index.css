@@ -21,7 +21,7 @@
     font-style: inherit;
     position: absolute;
     top:70px;
-    left: 35%;
+    left: 37%;
 }
 .box1{
     height: 600px;
@@ -88,25 +88,52 @@
    color:red;
    font-size:35px;
    position: absolute;
-   top: 13%;
-   left: 250px;
+   top: 15%;
+   left: 270px;
 }
 @media screen and  (min-width:941px) and (max-width:1980px){
     .heading{
         position: absolute;
-        top: 80px;
-        left: 200px;
+        top: 23%;
+        left: 370px;
     }
     .heading1{
         position: absolute;
-        top: 80px;
-        left: 300px;
+        top: 23%;
+        left: 470px;
     }
     .link3{
-        margin-left: 900px;
-        margin-top: 10px;
+        margin-left: 750px;
+        margin-top: 8%;
     }
     .block{
         background-color: yellow;
+        height: 250px;
+        width: 180px;
+    }
+    .block1{
+        position: absolute;
+        left: 200px;
+        top: 40%;
+    }
+    .block2{
+        position: absolute;
+        left: 450px;
+        top: 40%;
+    }
+    .block3{
+        position: absolute;
+        left: 700px;
+        top: 40%;
+    }
+    .block4{
+        position: absolute;
+        left: 200px;
+        top: 95%;
+    }
+    .block5{
+        position: absolute;
+        left: 450px;
+        top: 95%;
     }
 }
